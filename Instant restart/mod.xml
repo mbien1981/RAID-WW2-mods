@@ -1,0 +1,7 @@
+<table name="Instant Restart" author="_atom" color="Color('bf204b')">
+    <hooks>
+        <hook source_file="lib/managers/votemanager"
+            file="votemanager.lua"
+        />
+    </hooks>
+</table>
