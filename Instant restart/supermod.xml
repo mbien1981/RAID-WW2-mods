@@ -1,0 +1,5 @@
+<mod name="Instant Restart" author="_atom" color="Color('bf204b')">
+    <hooks>
+        <post hook_id="lib/managers/votemanager" script_path="votemanager.lua" />
+    </hooks>
+</mod>
