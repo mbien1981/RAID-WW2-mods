@@ -1,0 +1,11 @@
+<mod name="You have every card"
+		author="Punished Bernadetta"
+		color="Color('bf204b')"
+		description="You always have every challenge card"
+		cannot_be_disabled="false"
+		early_init="false">
+    <hooks>
+        <post hook_id="lib/network/matchmaking/networkaccountsteam"
+            script_path="networkaccountsteam.lua" />
+    </hooks>
+</mod>
