@@ -1,12 +1,9 @@
 function NetworkAccountSTEAM:_clbk_inventory_load(error, list)
 	self._inventory_is_loading = nil
-	_G.ToolBox:save_table_to_file2(list, 1000, "data/ass2.lua")
 
 	list = {}
 	local cards = tweak_data.challenge_cards:get_all_cards_indexed()
 
-	log("HELL")
-	_G.ToolBox:save_table_to_file2(cards, 1000, "data/ass.lua")
 	for i = 1, #cards, 1 do
 		table.insert(list, {
 			bonus = false, --Always false
